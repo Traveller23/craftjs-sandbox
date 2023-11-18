@@ -1,0 +1,30 @@
+{
+  "name": "@craftjs/components-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "vite build && tsc"
+  },
+  "author": "Traveller23",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@craftjs/core": "^0.2.2",
+    "@craftjs/utils": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

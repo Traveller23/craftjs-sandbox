@@ -11,6 +11,7 @@ import { Button } from './user/Button';
 import { Card } from './user/Card';
 import { Container } from './user/Container';
 import { Text } from './user/Text';
+import {Test} from "../packages/example/src/Test";
 
 export const Toolbox = () => {
   const { connectors } = useEditor();
@@ -68,6 +69,15 @@ export const Toolbox = () => {
             data-cy="toolbox-card"
           >
             Card
+          </MaterialButton>
+        </Grid>
+        <Grid container direction="column" item>
+          <MaterialButton
+              ref={(ref) => connectors.create(ref, <Test />)}
+              variant="contained"
+              data-cy="toolbox-card"
+          >
+            Test
           </MaterialButton>
         </Grid>
       </Grid>

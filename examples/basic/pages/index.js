@@ -9,6 +9,7 @@ import { Button } from '../components/user/Button';
 import { Card, CardBottom, CardTop } from '../components/user/Card';
 import { Container } from '../components/user/Container';
 import { Text } from '../components/user/Text';
+import {Test} from "../packages/example/src/Test";
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -32,6 +33,7 @@ export default function App() {
           Container,
           CardTop,
           CardBottom,
+          Test,
         }}
       >
         <Topbar />
